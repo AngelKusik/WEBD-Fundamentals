@@ -8,7 +8,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/AngelKusik](https://github.com/AngelKusik)
 
-- 💬 Ask me about **HTML, CSS,and PHP**
+- 💬 Ask me about **HTML, CSS, and PHP**
 
 - 📫 How to reach me **angelicakusik@outlook.com**
 
