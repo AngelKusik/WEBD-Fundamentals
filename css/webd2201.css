@@ -1,0 +1,450 @@
+/*
+Author: Angelica Kusik
+Student #: 100849912
+Date: February 25, 2022
+Course: WEBD2201
+File: wedb2201.css
+Description: This page contains all the style properties that compose the
+design of all pages in this website.
+*/
+
+/****************TAG SELECTORS***************/
+
+a:link {
+   color: #2EB086;
+   text-decoration: none;
+}
+a:visited {
+  color: #B83B5E;
+}
+
+a:hover {
+  color: #00ADB5;
+}
+
+a:active {
+  color: #FCE38A;
+  }
+
+body {
+  color: #222831;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4 {
+  color: #00909E;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4.625rem;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #219F94;
+  border-width: 8px;
+  width: 20%;
+  background-color: #D2ECF9;
+  margin-top: 100px;
+}
+
+
+li a {
+  color: #393E46;
+  text-align: left;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+label {
+  font-weight:bold;
+  line-height: 2;
+  color: #222831;
+}
+
+p {
+  font-weight:bold;
+  line-height: 2;
+  color: #222831;
+}
+
+table {
+  background-color: white;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: #222831;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+tr, td {
+  border: 2px solid black;
+ }
+
+ td, tr, th {
+   padding: 10px;
+   text-align: left;
+ }
+
+ th {
+   background-color: #393E46;
+   color: white;
+ }
+
+td:hover {
+  background-color: #F0F0F0;
+  font-weight: bold;
+}
+
+input[type=reset], input[type=submit] {
+    padding:10px 25px;
+    margin: 5px;
+    background:#219F94;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    color: white;
+}
+
+/****************CLASS SELECTORS***************/
+/* Main Containers*/
+.white-container, .colored-container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  position: relative;
+}
+
+.white-container {
+  background-color: #F0F0F0;
+}
+
+/*Divs for images*/
+
+.image-div {
+  position: relative;
+  display:inline-block;
+  width: 20%;
+  margin:auto;
+}
+
+
+/*Images*/
+.dc-logo, .profile-pic {
+  width: 100%;
+}
+
+/*Divs text sections*/
+.blue-text-div, .white-text-div {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.white-text-div {
+  background-color: #F0F0F0;
+}
+
+
+.hr-white-background {
+  background-color: #F6F6F6;
+}
+
+
+/* Contact Me Page*/
+.contact-me-form {
+  align-content: center;
+}
+
+/*Examples Lab 2*/
+.regular-list {
+  display: list-item;
+  text-align: left;
+}
+
+.code-snippet {
+  text-align: left;
+}
+
+/*Schedule Table Lab 2*/
+.schedule-table-div {
+  width: 65%;
+  display: inline;
+  margin: 0 auto;
+  background-color: #F0F0F0;
+}
+
+.orange-background {
+  background-color: #F98404;
+  font-weight: bold;
+}
+
+.green-background {
+  background-color: #77D970;
+  font-weight: bold;
+}
+
+.yellow-background {
+  background-color: #FBF46D;
+  font-weight: bold;
+}
+
+.pink-background {
+  background-color: #F38EFF;
+  font-weight: bold;
+}
+
+.blue-background {
+  background-color: #00D1FF;
+  font-weight: bold;
+}
+
+.purple-background {
+  background-color: #B983FF;
+  font-weight: bold;
+}
+
+.grey-background {
+  background-color: #9D9D9D;
+  font-weight: bold;
+}
+
+/* Other Classes*/
+.italic {
+  font-style: italic;
+}
+
+/* Lab 2 Examples*/
+.bold-example, .smaller-bold-example {
+  color: #222831;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.smaller-bold-example {
+  font-size: 1.3rem;
+}
+
+/* Tables */
+.top-left-radius {
+  border-top-left-radius: 20px;
+}
+
+.top-right-radius {
+  border-top-right-radius: 20px;
+}
+
+.bottom-left-radius {
+  border-bottom-left-radius: 20px;
+}
+
+.bottom-right-radius {
+  border-bottom-right-radius: 20px;
+}
+/*Lab 3 Demo Examples*/
+.light-blue-background {
+  background-color: #D2ECF9;
+}
+
+.center-aligned {
+  text-align: center;
+}
+
+.tiny-hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #219F94;
+  border-width: 6px;
+  width: 10%;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.a-link-example {
+  color: #2EB086;
+  text-decoration: none;
+}
+
+.a-visited-example {
+  color: #B83B5E;
+}
+
+.a-hover-example:hover {
+  color: #00ADB5;
+}
+
+.a-active-example {
+  color: #FCE38A;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/****************TERM TEST 1****************/
+.logo-test {
+  width: 200px;
+  height: 100px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/*****************LAB 9***********/
+.button-style {
+padding:10px 25px;
+margin: 5px;
+background:#219F94;
+border:0 none;
+cursor:pointer;
+border-radius: 5px;
+font-family: 'Montserrat', sans-serif;
+font-weight:bold;
+color: white;
+}
+
+/****************ID SELECTORS***************/
+
+#right-aligned {
+  text-align: right;
+}
+
+
+/***************LAB 4 SPECIFICS************/
+/*
+The layout for the rest of this css is a modified version from:
+http://www.maxdesign.com.au/articles/process/
+
+Students are encouraged to read this article.  Great explanation of some sound design concepts with attractive examples provided.
+
+You can cut and paste this at the bottom of your existing css file, and when used in conjunction with the css_layout.html file you unzipped, can wrap your pages into this site.
+*/
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background: #fff;
+}
+
+#header
+{
+	background: #D2ECF9;
+	padding: 20px;
+}
+
+#header h1
+ {
+	margin: 0;
+	display: inline;
+}
+
+#header img
+{
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+	background: #393E46;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover {
+	background-color: #ccc;
+	color: #000;
+}
+
+#navigation
+{
+	display: inline-block;
+	vertical-align: top;
+	/*clear: left;*/
+	/*float: left;*/
+	/*display: inline;*/
+	width: 240px;
+	padding: 10px 0;
+	margin: 20px 20px 0 0;
+}
+
+#navigation h3 { margin: 0; }
+
+#content-container
+{
+	/*float: left;*/
+	/*width: 1200px;*/
+	background-color: #fff;
+	background-image: url(../images/styles/background.png);
+	/* go up a directory, and then work down into images/styles directory */
+	background-repeat: repeat-y;
+
+}
+
+#content
+{
+	display: inline-block;
+	/*float: right;*/
+	width: 860px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background: #00ADB5;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer img{
+	vertical-align: middle;
+}

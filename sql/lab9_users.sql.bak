@@ -1,0 +1,20 @@
+/*
+*  Name: Angelica Kusik
+*  Date: April 6, 2022
+*  Course: WEBD2201
+*  Description: lab9_users.sql
+*/
+
+-- DROP'ping tables clear out any existing data
+DROP TABLE IF EXISTS users;
+
+-- CREATE the table, note that id has to the primary key and both id and password must be unique.
+CREATE TABLE actors(
+	id VARCHAR(20) PRIMARY KEY,
+	password VARCHAR(15) NOT  NULL
+	first_name VARCHAR(20) NOT  NULL
+	last_name VARCHAR(30) NOT  NULL
+	email_address VARCHAR(255) NOT  NULL
+	enrol_date DATE() NOT  NULL
+	last_access DATE() NOT  NULL
+);
